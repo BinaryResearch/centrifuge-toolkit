@@ -14,13 +14,13 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
 ## Example Use Cases
 
- - Determining whether a file contains a particular type of data. 
+ - **Determining whether a file contains a particular type of data. **
    - An entropy scan is useful for discovering compressed or encrypted data, but what about other data types such as machine code, symbol tables, sections of hardcoded ASCII strings, etc? Centrifuge takes advantage of the fact that in binary files, information encoded in a particular way is stored contiguously and uses scikit-learn's implementation of DBSCAN to locate these regions.
- - Analyzing files with no metadata such as magic numbers, headers or other format information.        
-   - This includes most firmware, as well as corrupt files. Centrifuge does not depend on any kind of metadata.
- - Investigating differences between different types of data using statistical methods or machine learning, or building a model or "profile" of a specific data type.
+ - **Analyzing files with no metadata such as magic numbers, headers or other format information.        **
+   - This includes most firmware, as well as corrupt files. Centrifuge does not depend on metadata or signatures of any kind.
+ - **Investigating differences between different types of data using statistical methods or machine learning, or building a model or "profile" of a specific data type.**
    - Does machine code differ systematically way from other types of information encoded in binary files? Can compressed data be distinguished from encrypted data? These questions can be investiged in an empirical way using Centrifuge.
- - Visualizing file contents using Python plotting libraries such as Seaborn, Matplotlib and Altair
+ - **Visualizing file contents using Python plotting libraries such as Seaborn, Matplotlib and Altair**
    - Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information contained in these data frames can be visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
  
  
