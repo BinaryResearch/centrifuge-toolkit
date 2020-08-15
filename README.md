@@ -8,6 +8,5 @@ This tool implements two new approaches to file analysis:
 
 2. The specific data type of a cluster can often be identified without using machine learning by measuring the [Wasserstein distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html) between its byte value distribution and a data type reference distribution. If this distance is less than a set threshold for a particular data type, that cluster will be identified as that data type. Currently, reference distributions exist for various CPU architectures, high entropy data, and UTF-8 english.
 
-These two approaches are used together in sequence: first DBSCAN finds clusters, then the Wasserstein distances between cluster's data and the reference distributions are measured to identify their data type.
+These two approaches are used together in sequence: first DBSCAN finds clusters, then the Wasserstein distances between the clusters' data and the reference distributions are measured to identify their data type.
 
-This toolkit is complements existing tools such as [binwalk](https://github.com/ReFirmLabs/binwalk) and [ISAdetect](https://github.com/kairis/isadetect).
