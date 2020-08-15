@@ -22,9 +22,9 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
    This includes most firmware, as well as corrupt files. Centrifuge does not depend on metadata or signatures of any kind.
  - **Investigating differences between different types of data using statistical methods or machine learning, or building a model or "profile" of a specific data type.**
   
-   Does machine code differ in a systematic way from other types of information encoded in binary files? Can compressed data be distinguished from encrypted data? These questions can be investiged in an empirical way using Centrifuge.
+   Does machine code differ in a systematic way from other types of information encoded in binary files? Can compressed data be distinguished from encrypted data? These questions can be investigated in an empirical way using Centrifuge.
  - **Visualizing file contents using Python plotting libraries such as Seaborn, Matplotlib and Altair**
   
-   Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information contained in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
+   Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
  
  
