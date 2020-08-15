@@ -16,7 +16,7 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
  - **Determining whether a file contains a particular type of data.**
    - An entropy scan is useful for discovering compressed or encrypted data, but what about other data types such as machine code, symbol tables, sections of hardcoded ASCII strings, etc? Centrifuge takes advantage of the fact that in binary files, information encoded in a particular way is stored contiguously and uses scikit-learn's implementation of DBSCAN to locate these regions.
- - **Analyzing files with no metadata such as magic numbers, headers or other format information.       **
+ - **Analyzing files with no metadata such as magic numbers, headers or other format information.**
    - This includes most firmware, as well as corrupt files. Centrifuge does not depend on metadata or signatures of any kind.
  - **Investigating differences between different types of data using statistical methods or machine learning, or building a model or "profile" of a specific data type.**
    - Does machine code differ systematically way from other types of information encoded in binary files? Can compressed data be distinguished from encrypted data? These questions can be investiged in an empirical way using Centrifuge.
