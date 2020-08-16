@@ -41,6 +41,8 @@ The feature observations of each cluster are stored in a data frame, so custom a
  
  ## Example Output
  
+ When analyzing `/bin/bash` in [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb):
+ 
  ```
  Searching for machine code
 --------------------------------------------------------------------
