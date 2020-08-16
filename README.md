@@ -12,9 +12,9 @@ This tool implements two new approaches to file analysis:
 
 These two approaches are used together in sequence: first DBSCAN finds clusters, then the Wasserstein distances between the clusters' data and the reference distributions are measured to identify their data type. To identify the target CPU of machine code clusters, Centrifuge uses [ISAdetect](https://github.com/kairis/isadetect).
 
-## Dependancies
+## Required Libraries
 
-Since this tool uses a wide variety of data science libraries (pandas, scipy, scikit-learn, seaborn, etc), it is recommended that rather than installing the required libraries individually, [Anaconda](https://www.anaconda.com/products/individual) be installed instead.
+It is recommended that [Anaconda](https://www.anaconda.com/products/individual) be installed. All required libraries come bundled with Anaconda.
 
 ## Usage
 
