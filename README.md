@@ -99,7 +99,7 @@ Put some example pictures here
  - **Investigating differences between different types of data using statistical methods or machine learning, or building a model or "profile" of a specific data type.**
   
    Does machine code differ in a systematic way from other types of information encoded in binary files? Can compressed data be distinguished from encrypted data? These questions can be investigated in an empirical way using Centrifuge.
- - **Visualizing file contents using Python plotting libraries such as Seaborn, Matplotlib and Altair**
+ - **Visualizing information in files using Python libraries such as Seaborn, Matplotlib and Altair**
   
    Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
 
@@ -109,6 +109,6 @@ The [ISAdetect dataset](https://etsin.fairdata.fi/dataset/9f6203f5-2360-426f-b9d
 
 ## Todo
 
- - Adding the ability to use OPTICS for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order to get meaningful results using DBSCAN.
+ - Adding the ability to use [OPTICS](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS) for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order to get meaningful results using DBSCAN.
  - Improving the UTF-8 english data reference distribution. Rather than derive it from text extracted from an ebook, samples should be drawn from hard-coded text data in executable binaries.
  - Creating reference distributions for AVR and Xtensa
