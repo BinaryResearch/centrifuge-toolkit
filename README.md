@@ -27,4 +27,43 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
   
    Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
  
+ ## Example Output
  
+ ```
+ Searching for machine code
+--------------------------------------------------------------------
+
+[+] Checking Cluster 4 for possible match
+[+] Closely matching CPU architecture reference(s) found for Cluster 4
+[+] Sending sample to https://isadetect.com/
+[+] response:
+
+{
+    "prediction": {
+        "architecture": "amd64",
+        "endianness": "little",
+        "wordsize": 64
+    },
+    "prediction_probability": 1.0
+}
+
+
+Searching for utf8-english data
+-------------------------------------------------------------------
+
+[+] UTF-8 (english) detected in Cluster 3
+    Wasserstein distance to reference: 16.337275669642857
+
+[+] UTF-8 (english) detected in Cluster 5
+    Wasserstein distance to reference: 11.878225097656252
+
+
+Searching for high entropy data
+-------------------------------------------------------------------
+
+[+] High entropy data found in Cluster 1
+    Wasserstein distance to reference: 0.48854199218749983
+[*] This distance suggests the data in this cluster is either
+    a) encrypted
+    b) compressed via LZMA with maximum compression level.
+ ```
