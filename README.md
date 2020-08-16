@@ -14,7 +14,7 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
  ## Overview
  
- put pictures here
+ <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach.png?token=AM7X622PSZO3UVI6DZ4JILK7IHSBW" />
  
  
  ## Example Output
