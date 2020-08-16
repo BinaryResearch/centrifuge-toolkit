@@ -22,9 +22,11 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_2.png?token=AM7X624YYAWKFS5HVS2EQ327IHSLS" />
  
- Once clusters have been found, cluster data types can be identified.
+ Once clusters have been found, the data in the clusters can be identified.
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_3.png?token=AM7X624EPDWHMCO3XOMHHQ27IHSPA" />
+ 
+ Since the feature observations of each cluster are stored in a data frame, custom analysis can be performed in addition to the analyses performed by Centrifuge.
  
  ## Example Output
  
