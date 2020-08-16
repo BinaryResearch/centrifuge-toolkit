@@ -23,13 +23,13 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
 - "Analyzing Firmware with Centrifuge" provides a tutorial for analyzing firmware binaries.
 - "Encountering an Unknown CPU Architecture" discusses what it looks like when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it, as well as what can be done in such cases.
 
- ## Overview 
+ ## Overview of File Analysis
  
  The first step is file partitioning and feature measurement.
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach.png?token=AM7X622PSZO3UVI6DZ4JILK7IHSBW" />
  
- Next, DBSCAN finds clusters in the file data.
+ DBSCAN can then be used to find clusters in the file data.
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_2.png?token=AM7X624YYAWKFS5HVS2EQ327IHSLS" />
  
@@ -37,7 +37,7 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_3.png?token=AM7X624EPDWHMCO3XOMHHQ27IHSPA" />
  
- Since the feature observations of each cluster are stored in a data frame, custom analysis can be performed in addition to the analyses performed by Centrifuge.
+The feature observations of each cluster are stored in a data frame, so custom analysis can be performed any time after clustering is performed.
  
  ## Example Output
  
