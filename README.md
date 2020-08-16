@@ -12,10 +12,15 @@ This tool implements two new approaches to file analysis:
 
 These two approaches are used together in sequence: first DBSCAN finds clusters, then the Wasserstein distances between the clusters' data and the reference distributions are measured to identify their data type. To identify the target CPU of machine code clusters, Centrifuge uses [ISAdetect](https://github.com/kairis/isadetect).
 
- ## Overview
+ ## Overview 
+ 
+ The first step is file partioning and feature engineering.
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach.png?token=AM7X622PSZO3UVI6DZ4JILK7IHSBW" />
  
+ Next, DBSCAN finds clusters in the file data.
+ 
+ <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_2.png?token=AM7X624YYAWKFS5HVS2EQ327IHSLS" />
  
  ## Example Output
  
