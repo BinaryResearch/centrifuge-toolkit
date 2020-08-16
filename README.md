@@ -18,8 +18,8 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
 
 ## Usage
 
-- [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides a tutorial introduction, an overview of Centrifuge's features and an explanation of how the tool works.
-- "Using DBSCAN with Centrifuge" shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
+- [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and an explanation of how the tool works.
+- "Using DBSCAN to Cluster File Data" shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
 - "Analyzing Firmware with Centrifuge" provides a tutorial for analyzing firmware binaries.
 - "Encountering an Unknown CPU Architecture" discusses what it looks like when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it, as well as what can be done in such cases.
 
@@ -98,7 +98,11 @@ Put some example pictures here
  - **Visualizing file contents using Python plotting libraries such as Seaborn, Matplotlib and Altair**
   
    Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
-   
+
+## Dataset
+
+The [ISAdetect dataset](https://etsin.fairdata.fi/dataset/9f6203f5-2360-426f-b9df-052f3f936ed2/data) was used to create the i386, AMD64, MIPSEL, MIPS64EL, ARM64, ARMEL, PowerPC, PPC64, and SH4 reference distributions.
+
 ## Todo
 
  - Adding the ability to use OPTICS for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order to get meaningful results using DBSCAN.
