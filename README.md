@@ -111,7 +111,7 @@ The [ISAdetect dataset](https://etsin.fairdata.fi/dataset/9f6203f5-2360-426f-b9d
 
 ## Todo
 
- - Adding the ability to use [OPTICS](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS) for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order to get meaningful results using DBSCAN.
+ - Adding the ability to use [OPTICS](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS) for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order ensure meaningful results when using DBSCAN.
  - Improving the UTF-8 english data reference distribution. Rather than derive it from text extracted from an ebook, samples should be drawn from hard-coded text data in executable binaries.
  - Creating reference distributions for AVR and Xtensa
  - update the code with docstrings and comments
