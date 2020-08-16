@@ -14,7 +14,7 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
 ## Required Libraries
 
-It is recommended that [Anaconda](https://www.anaconda.com/products/individual) be installed. All required libraries come bundled with Anaconda.
+All required libraries come bundled with [Anaconda](https://www.anaconda.com/products/individual).
 
 ## Usage
 
