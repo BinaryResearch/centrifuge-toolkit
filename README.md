@@ -1,6 +1,6 @@
 # Centrifuge
 
-Centrifuge simplifies the application of statistical and machine learning techniques to the analysis of information in binary files.
+Centrifuge makes it easy to use statistical and machine learning techniques to analyze information in binary files.
 
 <hr>
 
