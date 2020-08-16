@@ -31,15 +31,15 @@ Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryR
  
  The first step is file partitioning and feature measurement.
  
- <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach.png?token=AM7X622PSZO3UVI6DZ4JILK7IHSBW" />
+ <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/images/approach.png?token=AM7X624RJIW2AR4ORAS75QK7ILLPI" />
  
  DBSCAN can then be used to find clusters in the file data.
  
- <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_2.png?token=AM7X624YYAWKFS5HVS2EQ327IHSLS" />
+ <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/images/approach_2.png?token=AM7X627IOXQAXQFWIIYNAKC7ILLP4" />
  
  Once clusters have been found, the data in the clusters can be identified.
  
- <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach_3.png?token=AM7X624EPDWHMCO3XOMHHQ27IHSPA" />
+ <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/images/approach_3.png?token=AM7X623HIZWL2HVMJ6UOQTK7ILLP6" />
  
 The feature observations of each cluster are stored in a data frame, so custom analysis can be performed any time after clustering is performed.
  
