@@ -18,6 +18,8 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
 
 ## Usage
 
+Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryResearch/centrifuge/tree/master/notebooks). Code snippets are located in the [examples](https://github.com/BinaryResearch/centrifuge/tree/master/examples) folder.
+
 - [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and an explanation of how the tool works.
 - "Using DBSCAN to Cluster File Data" shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
 - "Analyzing Firmware with Centrifuge" provides a tutorial for analyzing firmware binaries.
