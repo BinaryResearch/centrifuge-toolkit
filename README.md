@@ -67,3 +67,7 @@ Searching for high entropy data
     a) encrypted
     b) compressed via LZMA with maximum compression level.
  ```
+
+## Visualization 
+
+
