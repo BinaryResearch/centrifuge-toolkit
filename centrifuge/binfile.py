@@ -578,7 +578,7 @@ class BinFile:
             id_string = "Cluster " + str(id)
             d =  wasserstein_distance(reference_dist, bytes)
             distances[id_string] = d
-            if d < 20: # initial cutoff
+            if d < 30: # initial cutoff
                 print("[+] UTF-8 (english) detected in %s\n    Wasserstein distance to reference: %s\n" % (id_string, d))
                 match_found = True
 
