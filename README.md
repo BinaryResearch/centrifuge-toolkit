@@ -14,7 +14,7 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
 ## Usage
 
-- the [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) notebook provides a walkthrough of analyzing the `/bin/bash` file.
+- [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features as well as an explanation of how the tool works.
 - "Introduction to using DBSCAN with Centrifuge" shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
 - "Analyzing Firmware with Centrifuge" provides a tutorial for analyzing firmware binaries.
 - "Encountering an Unknown CPU Architecture" discusses what it looks like when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not have a model for, as well as what can be done in such cases.
