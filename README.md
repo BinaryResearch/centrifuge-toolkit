@@ -27,6 +27,11 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
   
    Rather than generate elaborate 2D or 3D visual representations of file contents using space-filling curves or cylindrical coordinate systems, Centrifuge creates data frames that contain the feature measurements of each cluster. The information in these data frames can be easily visualized with boxplots, violin plots, pairplots, histograms, density plots, scatterplots, barplots, cumulative distribution function (CDF) plots, etc.
  
+ ## Overview
+ 
+ put pictures here
+ 
+ 
  ## Example Output
  
  ```
@@ -70,4 +75,4 @@ Searching for high entropy data
 
 ## Visualization 
 
-
+Put some example pictures here
