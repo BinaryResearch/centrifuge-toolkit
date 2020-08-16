@@ -18,6 +18,8 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
 
 ## Usage
 
+*Developed in a Linux environment. Not tested on Windows or MacOS. 
+
 Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryResearch/centrifuge/tree/master/notebooks). Code snippets are located in the [examples](https://github.com/BinaryResearch/centrifuge/tree/master/examples) folder.
 
 - [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and an explanation of how the tool works.
