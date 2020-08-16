@@ -14,7 +14,7 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
  ## Overview 
  
- The first step is file partioning and feature engineering.
+ The first step is file partitioning and feature engineering.
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge/master/images/approach.png?token=AM7X622PSZO3UVI6DZ4JILK7IHSBW" />
  
