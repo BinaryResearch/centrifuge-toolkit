@@ -16,9 +16,9 @@ These two approaches are used together in sequence: first DBSCAN finds clusters,
 
 All required libraries come bundled with [Anaconda](https://www.anaconda.com/products/individual).
 
-## Usage
+*Developed in a Linux environment. Not tested on Windows or MacOS.
 
-*Developed in a Linux environment. Not tested on Windows or MacOS. 
+## Usage 
 
 Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryResearch/centrifuge/tree/master/notebooks). Code snippets are located in the [examples](https://github.com/BinaryResearch/centrifuge/tree/master/examples) folder.
 
