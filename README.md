@@ -92,7 +92,7 @@ Searching for high entropy data
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/10.png?token=AM7X627MGUT6FBMZRM33ZBC7IMNOE" />
 
-<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/13.png?token=AM7X622JAXCCJL3CWPA7MSK7IMQDQ" />
+<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
 
 ## Example Use Cases
 
