@@ -4,7 +4,7 @@ Centrifuge makes it easy to use visualization, statistics and machine learning t
 
 <hr>
 
-This tool implements two new approaches to file analysis:
+This tool implements two new approaches to analysis of file data:
 
 1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). This is useful because byte sequences belonging to the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
 
@@ -89,6 +89,8 @@ Searching for high entropy data
 ## Data Visualization 
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
+
+<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/19.png?token=AM7X62YVKNC5XIRLCBAM5VC7IP6ZG" />
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/18.png?token=AM7X62ZAUAQGSRWZ2MHF3MS7IM2CS" />
 
