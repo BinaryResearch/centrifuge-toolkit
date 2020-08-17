@@ -24,7 +24,7 @@ Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryR
 
 - [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and a demonstration of how the tool works.
 - [Using DBSCAN to Cluster File Data](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Using%20DBSCAN%20to%20Cluster%20File%20Data.ipynb) shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
-- "Analyzing Firmware with Centrifuge" provides a tutorial for analyzing firmware binaries.
+- [Analyzing Firmware with Centrifuge](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge.ipynb) and [Analyzing Firmware with Centrifuge Example 2](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge%20Example%202.ipynb) provide tutorials for analyzing firmware binaries.
 - "Encountering an Unknown CPU Architecture" discusses what it looks like when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it, as well as what can be done in such cases.
 
  ## Overview of File Analysis
