@@ -6,7 +6,7 @@ Centrifuge makes it easy to use visualization, statistics and machine learning t
 
 This tool implements two new approaches to analysis of file data:
 
-1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). This is useful because byte sequences belonging to the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
+1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). Byte sequences that encode the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
 
 2. The specific data type of a cluster can often be identified without using machine learning by measuring the [Wasserstein distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html) between its byte value distribution and a data type *reference distribution*. If this distance is less than a set threshold for a particular data type, that cluster will be identified as that data type. Currently, reference distributions exist for high entropy data, UTF-8 english, and machine code targeting various CPU architectures.
 
