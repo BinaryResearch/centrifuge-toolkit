@@ -88,11 +88,13 @@ Searching for high entropy data
 
 ## Data Visualization 
 
+<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
+
+<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/18.png?token=AM7X62ZAUAQGSRWZ2MHF3MS7IM2CS" />
+
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/1.png?token=AM7X62ZUQYINNM46PBC76YK7IMNJI" />
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/10.png?token=AM7X627MGUT6FBMZRM33ZBC7IMNOE" />
-
-<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/17.png?token=AM7X627XT4LHP55KWLCYB3K7IMRZ4" />
 
