@@ -41,7 +41,7 @@ Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryR
  
  <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/images/approach_3.png?token=AM7X623HIZWL2HVMJ6UOQTK7ILLP6" />
  
-The feature observations of each cluster are stored in a data frame, so custom analysis can be performed any time after clustering is performed.
+The feature observations of each cluster are stored in a separate data frame, one for each cluster (e.g if 6 clusters are found, there will be 6 data frames, 1 per cluster). The output of DBSCAN is also saved in a data frame. This means custom analysis of any/all clusters can easily be performed any time after DBSCAN identifies clusters in the file data.
  
  ## Example Output
  
