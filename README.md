@@ -86,7 +86,7 @@ Searching for high entropy data
     b) compressed via LZMA with maximum compression level.
  ```
 
-## Visualization 
+## Data Visualization 
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/1.png?token=AM7X62ZUQYINNM46PBC76YK7IMNJI" />
 
