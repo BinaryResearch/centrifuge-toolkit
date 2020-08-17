@@ -94,6 +94,8 @@ Searching for high entropy data
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
 
+<img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/17.png?token=AM7X627XT4LHP55KWLCYB3K7IMRZ4" />
+
 ## Example Use Cases
 
  - **Determining whether a file contains a particular type of data.**
