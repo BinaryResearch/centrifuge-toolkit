@@ -6,7 +6,7 @@ Centrifuge makes it easy to use visualization, statistics and machine learning t
 
 This tool implements two new approaches to file analysis:
 
-1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). This is useful because byte sequences belonging to the same data type, e.g. machine code, typically cluster together. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
+1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). This is useful because byte sequences belonging to the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
 
 2. The specific data type of a cluster can often be identified without using machine learning by measuring the [Wasserstein distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html) between its byte value distribution and a data type *reference distribution*. If this distance is less than a set threshold for a particular data type, that cluster will be identified as that data type. Currently, reference distributions exist for various CPU architectures, high entropy data, and UTF-8 english.
 
@@ -111,6 +111,7 @@ The [ISAdetect dataset](https://etsin.fairdata.fi/dataset/9f6203f5-2360-426f-b9d
 
 ## Todo
 
- - Adding the ability to use [OPTICS](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS) for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order to get meaningful results using DBSCAN.
+ - Adding the ability to use [OPTICS](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS) for automatic clustering. It would be nice to automate the entire workflow, going straight from an input file to data type identification. Currently this is not possible because `eps` and `min_samples` need to be adjusted manually in order ensure meaningful results when using DBSCAN.
  - Improving the UTF-8 english data reference distribution. Rather than derive it from text extracted from an ebook, samples should be drawn from hard-coded text data in executable binaries.
  - Creating reference distributions for AVR and Xtensa
+ - update the code with docstrings and comments
