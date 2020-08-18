@@ -602,8 +602,10 @@ class BinFile:
                 print("[+] High entropy data found in %s\n    Wasserstein distance to reference: %s" % (id_string, d))
                 match_found = True
                 if d < 1:
-                    print("[*] This distance suggests the data in this cluster is either\n    a) encrypted\n" \
-                          "    b) compressed via LZMA with maximum compression level.\n")
+                    print("[*] This distance suggests the data in this cluster could be\n" \
+                          "    a) encrypted\n"                                          \
+                          "    b) compressed via LZMA with maximum compression level\n" \
+                          "    c) something else that is random or close to random.")
                 else:
                     print("[*] This distance suggests the data in this cluster is compressed\n")
 
