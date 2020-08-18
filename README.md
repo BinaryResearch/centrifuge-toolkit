@@ -81,9 +81,10 @@ Searching for high entropy data
 
 [+] High entropy data found in Cluster 1
     Wasserstein distance to reference: 0.48854199218749983
-[*] This distance suggests the data in this cluster is either
+[*] This distance suggests the data in this cluster could be
     a) encrypted
-    b) compressed via LZMA with maximum compression level.
+    b) compressed via LZMA with maximum compression level
+    c) something else that is random or close to random.
  ```
 
 ## Data Visualization 
