@@ -6,7 +6,7 @@ Centrifuge makes it easy to use visualization, statistics and machine learning t
 
 This tool implements two new approaches to analysis of file data:
 
-1. [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). Byte sequences that encode the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
+1. [DBSCAN](https://scikit-learn.org/stable/modules/clustering.html#dbscan), an unsupervised machine learning algorithm, is used find clusters of byte sequences based on their statistical properties (features). Byte sequences that encode the same data type, e.g. machine code, typically have similar properties. As a result, clusters are often representative of a specific data type. Each cluster can be extracted and analysed further. 
 
 2. The specific data type of a cluster can often be identified without using machine learning by measuring the [Wasserstein distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html) between its byte value distribution and a data type *reference distribution*. If this distance is less than a set threshold for a particular data type, that cluster will be identified as that data type. Currently, reference distributions exist for high entropy data, UTF-8 english, and machine code targeting various CPU architectures.
 
@@ -25,7 +25,7 @@ Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryR
 - [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and a demonstration of how the tool works.
 - [Using DBSCAN to Cluster File Data](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Using%20DBSCAN%20to%20Cluster%20File%20Data.ipynb) shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
 - [Analyzing Firmware with Centrifuge](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge.ipynb) and [Analyzing Firmware with Centrifuge Example 2](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge%20Example%202.ipynb) provide tutorials for analyzing firmware binaries.
-- "Encountering an Unknown CPU Architecture" discusses what it looks like when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it, as well as what can be done in such cases.
+- [Analyzing Machine Code Targeting an Usupported Architecture](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Machine%20Code%20Targeting%20an%20Usupported%20Architecture.ipynb) discusses what may occur when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it.
 
  ## Overview of File Analysis
  
