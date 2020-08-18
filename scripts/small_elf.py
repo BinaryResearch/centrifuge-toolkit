@@ -10,10 +10,11 @@ from centrifuge.binfile import BinFile
 def cluster():
     with open("/bin/cat", "rb") as f:
         cat = BinFile(f)
-        cat.set_block_size(1024)
         cat.slice_file()
-        cat.cluster_DBSCAN(1, 5, find_optimal_epsilon=True)
+        cat.cluster_DBSCAN(1, 3, find_optimal_epsilon=True)
         cat.plot_DBSCAN_results()
+
+        cat.identify_cluster_data_types()
 
 if __name__=="__main__":
     cluster()
