@@ -27,7 +27,7 @@ Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryR
 - [Analyzing Firmware with Centrifuge](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge.ipynb) and [Analyzing Firmware with Centrifuge Example 2](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Firmware%20with%20Centrifuge%20Example%202.ipynb) provide tutorials for analyzing firmware binaries.
 - [Analyzing Machine Code Targeting an Usupported Architecture](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Analyzing%20Machine%20Code%20Targeting%20an%20Usupported%20Architecture.ipynb) discusses what may occur when an executable binary contains machine code targeting a CPU architecture for which there is no matching reference distribution and ISAdetect does not correctly classify it.
 
- ## Overview of File Analysis
+ ## Overview of the Approach
  
  The first step is file partitioning and feature measurement.
  
