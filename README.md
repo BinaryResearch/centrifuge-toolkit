@@ -87,7 +87,7 @@ Searching for high entropy data
     c) something else that is random or close to random.
  ```
 
-## Data Visualization 
+## File Data Visualization 
 
 <img src="https://raw.githubusercontent.com/BinaryResearch/centrifuge-toolkit/master/gallery/14.png?token=AM7X627KR2SLJPGPLVKJMHS7IMQMY" />
 
