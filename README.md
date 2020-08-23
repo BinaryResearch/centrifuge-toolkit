@@ -20,7 +20,7 @@ All required libraries come bundled with [Anaconda](https://www.anaconda.com/pro
 
 ## Usage 
 
-Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryResearch/centrifuge/tree/master/notebooks). Code snippets are located in the [examples](https://github.com/BinaryResearch/centrifuge/tree/master/examples) folder.
+Detailed walkthroughs can be found in the [notebooks](https://github.com/BinaryResearch/centrifuge/tree/master/notebooks). Code snippets are located in the [scripts](https://github.com/BinaryResearch/centrifuge-toolkit/tree/master/scripts) folder.
 
 - [Introduction to Centrifuge](https://github.com/BinaryResearch/centrifuge/blob/master/notebooks/Introduction%20to%20Centrifuge.ipynb) provides an overview of Centrifuge's features and a demonstration of how the tool works.
 - [Using DBSCAN to Cluster File Data](https://github.com/BinaryResearch/centrifuge-toolkit/blob/master/notebooks/Using%20DBSCAN%20to%20Cluster%20File%20Data.ipynb) shows examples of how to adjust DBSCAN's `eps` and `min_samples` parameters to get the best results.
